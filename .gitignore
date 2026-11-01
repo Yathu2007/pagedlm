@@ -1,0 +1,29 @@
+# Build output
+build/
+*.o
+*.a
+*.so
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Model weights and exports (large; regenerate with scripts/export_gpt2.py)
+models/
+*.bin
+*.safetensors
+
+# Profiler output
+*.nsys-rep
+*.ncu-rep
+*.sqlite
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Private working notes (not part of the public repo)
+CLAUDE.md
+NOTES.md
