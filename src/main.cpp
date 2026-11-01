@@ -1,7 +1,3 @@
-// pagedlm: entry point.
-// M0 TODO (yours): mmap the .bin, validate the header and index, print every tensor.
-// The on-disk format is specified in docs/format.md.
-
 #include <cstdio>
 
 int main(int argc, char** argv) {
